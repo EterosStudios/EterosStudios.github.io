@@ -1,0 +1,137 @@
+.header {
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  justify-content: end;
+  gap: 4rem;
+  gap: 6rem;
+  font-weight: 100;
+  letter-spacing: 0.08rem;
+  padding-right: 2rem;
+  background-color: rgba(9,9,9,1);
+  z-index: 100;
+  transition: 0.2s;
+  background: linear-gradient(90deg, rgba(9,9,9,0.35) 0%, rgba(9,9,9, 0.35) 60%, rgba(111,248,207,0.35) 100%);
+}
+
+a {
+  padding: 1.5rem 1rem;
+}
+
+.header > a:hover {
+  padding-bottom: 1.45rem;
+  border-bottom: 1px solid #6ff8f0;
+}
+
+.links > a > img {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #6ff8f0
+}
+
+.links > a:hover {
+  transform: scale(105%);
+}
+
+.scrolled-class {
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  justify-content: end;
+  gap: 4rem;
+  gap: 6rem;
+  font-weight: 100;
+  letter-spacing: 0.08rem;
+  padding-right: 2rem;
+  transition: 0.2s;
+  background: linear-gradient(90deg, rgba(9,9,9,0.5) 0%, rgba(9,9,9, 0.5) 60%, rgba(9,9,9,0.5) 100%);
+
+}
+
+.splash {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.tagline {
+  margin-top: -8rem;
+  font-size: 2rem;
+  margin-bottom: 6rem;
+  padding: 0rem 24rem;
+  background: rgb(9,9,9);
+  background: linear-gradient(90deg, rgba(9,9,9,1) 0%, rgba(9,9,9,1) 20%, rgba(111,248,207,0.1) 50%, rgba(9,9,9,1) 80%, rgba(9,9,9,1) 100%);
+}
+
+.games, .about-us {
+  justify-content:center;
+  align-items:center;
+}
+
+.endlanders {
+  width: 600px;
+  height: 700px;
+  background-image: url("../../assets/endlanders_gameplay.jpg");
+  background-position: center;
+  transition: 0.2s;
+}
+
+.endlanders:hover {
+  cursor: pointer;
+}
+
+.mirage-arena {
+  width: 600px;
+  height: 700px;
+  background-image: url("../../assets/mirage_arena_concept_art.jpg");
+  background-position: center;
+  transition: 0.2s;
+}
+
+.endlanders:hover, .mirage-arena:hover {
+  transform: scale(102%);
+  transition: 0.2s;
+}
+
+.left-par {
+  font-size: 3rem;
+  padding: 10rem;
+  color: #111;
+  background-color: #eee;
+  font-weight: 600;
+}
+.left-par>p {
+  font-size: 3.5rem;
+  color: #111;
+  font-weight: 600;
+}
+
+.right-par{
+  font-size:1.5rem;
+  padding: 4rem;
+  padding-top: 0rem;
+}
+
+.game {
+  padding: 12rem;
+  background-color: #222;
+}
+
+.divider {
+  height: 1px;
+  width: 250px;
+  background-color: #6ff8f0;
+  margin-top: 1rem;
+}
+
+.icon {
+  margin: 0rem 1rem;
+  color: white;
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(328deg) brightness(104%) contrast(101%);
+}
+
+.footer {
+  // background-color: rgba(111,248,207,0.8);
+  background-color: #6ff8f0;
+  padding: 0.5rem 2rem;
+}
